@@ -47,17 +47,17 @@ img {
 .container.header-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .navigation {
   display: flex;
   align-items: center;
 }
+
 .navigation .menu {
   display: flex;
   gap: 40px;
@@ -67,7 +67,9 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
   padding: 24px 0;
+
 }
 .menu-link:focus {
   color: #404bbf;
@@ -97,6 +99,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
 .contact-info:hover {
   color: #404bbf;
